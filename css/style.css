@@ -309,19 +309,165 @@ ul {
   padding:.5rem 0;
 }
 
-.menu .price span{
+.menu .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: lighter;
 }
 
-.menu-card:hover{
+.menu-card:hover {
   background:#fff;
 }
 
 .menu-card:hover > *{
   color:var(--black);
 }
+
+.products__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:1.5rem;
+}
+
+.products-card {
+  text-align: center;
+  border:var(--border);
+  padding: 2rem;
+}
+
+.products-card__icons a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  border:var(--border);
+  color:#fff;
+  margin:.3rem;
+}
+
+.products-card__icons a:hover {
+  background:var(--main-color);
+}
+
+.products-card__images {
+  padding: 2.5rem 0;
+}
+
+.products-card__img {
+  height: 25rem;
+}
+
+.products-content__title {
+  color:#fff;
+  font-size: 2.5rem;
+}
+
+.rating {
+  padding: 1.5rem;
+}
+
+.rating i {
+  font-size: 1.7rem;
+  color: var(--main-color);
+}
+
+.products-card .price {
+  color:#fff;
+  font-size: 2.5rem;
+}
+
+.products-card .price span{
+  text-decoration: line-through;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.review__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:1.5rem;
+}
+
+.review-content {
+  border:var(--border);
+  text-align: center;
+  padding:3rem 2rem;
+}
+
+.review-content__text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color:#ccc;
+  padding:2rem 0;
+}
+
+.review-content__img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-content__title {
+  padding:1rem 0;
+  font-size: 2rem;
+  color:#fff;
+}
+
+.review-content .rating i{
+  font-size: 1.5rem;
+  color:var(--main-color);
+}
+
+.contact__container {
+  display: flex;
+  background:var(--black);
+  flex-wrap: wrap;
+  gap:1rem;
+}
+
+.map {
+  flex:1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.form {
+  flex:1 1 45rem;
+  padding:5rem 2rem;
+  text-align: center;
+}
+
+.form__title {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color:#fff;
+}
+
+.form__label {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background:var(--bg);
+  border:var(--border);
+}
+
+.form__label span {
+  color:#fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.form__label input {
+  width: 100%;
+  padding:2rem;
+  font-size: 1.7rem;
+  color:#fff;
+  text-transform: none;
+  background:none;
+}
+
 
 
 
