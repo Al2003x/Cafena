@@ -548,28 +548,6 @@ ul {
   background:var(--main-color);
 }
 
-.footer__github-link {
-  display: flex;
-}
-
-.footer__github a {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  color:#fff;
-  border:var(--border);
-  margin:.3rem;
-  border-radius: 50%;
-}
-
-.footer__github a span{
-  font-size: 2rem;
-  color:#fff;
-  font-weight: lighter;
-  padding:1.5rem;
-}
-
 /* media queries  */
 
 @media (max-width: 991px) {
